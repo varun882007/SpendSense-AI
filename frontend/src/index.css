@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #101525;
+  --bg-card: #1B2438;
+  --bg-card-hover: #222d44;
+  --bg-input: #151b2e;
+  --color-primary: #8067F5;
+  --color-primary-hover: #6f55e0;
+  --color-primary-light: rgba(128, 103, 245, 0.12);
+  --color-success: #29C995;
+  --color-success-light: rgba(41, 201, 149, 0.12);
+  --color-warning: #F4B860;
+  --color-warning-light: rgba(244, 184, 96, 0.12);
+  --color-danger: #EF6680;
+  --color-danger-light: rgba(239, 102, 128, 0.12);
+  --text-primary: #E9EDF5;
+  --text-secondary: #929CB0;
+  --text-muted: #5a6478;
+  --border-color: rgba(255, 255, 255, 0.06);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --sidebar-width: 260px;
+}
+
+.light {
+  --bg-primary: #F6F7FB;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #f0f1f5;
+  --bg-input: #f0f1f5;
+  --color-primary: #8067F5;
+  --color-primary-hover: #6f55e0;
+  --color-primary-light: rgba(128, 103, 245, 0.08);
+  --color-success: #29C995;
+  --color-success-light: rgba(41, 201, 149, 0.08);
+  --color-warning: #F4B860;
+  --color-warning-light: rgba(244, 184, 96, 0.08);
+  --color-danger: #EF6680;
+  --color-danger-light: rgba(239, 102, 128, 0.08);
+  --text-primary: #20243A;
+  --text-secondary: #747B90;
+  --text-muted: #a0a6b4;
+  --border-color: rgba(0, 0, 0, 0.08);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+body {
+  font-family: 'Inter', 'Manrope', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Selection */
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* Focus rings */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
