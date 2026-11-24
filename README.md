@@ -16,12 +16,11 @@ SpendSense AI is an AI-powered personal finance management platform that helps u
 - **AI Financial Advisor** -- Chat with an AI that analyzes your actual financial data and provides personalized advice
 - **Expense Prediction** -- ML-based predictions for next month's expenses using historical data
 - **Anomaly Detection** -- Automatic detection of unusual spending patterns and transactions
-- **Financial Health Score** -- Comprehensive score (0-100) based on savings ratio, budget adherence, spending consistency, and emergency fund progress
 
 ### Analytics & Insights
 - **Interactive Charts** -- Income vs expenses, category breakdowns, monthly trends (powered by Recharts)
 - **Spending Reports** -- Category-wise analysis, weekly/monthly comparisons
-- **Receipt Scanner** -- Upload receipts for automatic data extraction via OCR
+
 
 ### User Experience
 - **Dark/Light Theme** -- Premium fintech design with smooth theme switching
